@@ -18,3 +18,5 @@ Includes es6-promise, isomorphic-fetch for use in older browsers and for use in 
 Inspects content-type header to parse response correctly
 Throws an error (catch) if the response is not OK
 Stringifies JSON and sets content-type header
+
+* Get image with url from the https://imgur.com/

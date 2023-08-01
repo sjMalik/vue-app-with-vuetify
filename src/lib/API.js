@@ -9,4 +9,7 @@ export default {
     getProduct(id) {
        return ezFetch.get(`${API_URL}/${id}`);
     },
+    createProduct(product) {
+      return ezFetch.post(API_URL, product);
+    },
 };

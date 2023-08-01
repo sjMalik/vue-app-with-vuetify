@@ -2,7 +2,7 @@
     <v-layout row wrap>
         <v-flex xs12>
             <v-card>
-                <v-card-media :src="product.image" height="800px"></v-card-media>
+                <v-card-media :src="product.image" height="700px" width="800px"></v-card-media>
                 <v-card-title primary-title>
                 <div>
                     <h3 class="headline mb-0">{{ product.title }}</h3>
